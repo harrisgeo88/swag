@@ -66,3 +66,4 @@ typings/
 
 # built code
 dist
+.out

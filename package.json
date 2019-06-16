@@ -10,9 +10,8 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
-    "lint": "eslint '**/*.js'",
-    "lint:fix": "prettier-eslint '**/*.js' --write",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook -o .out"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
