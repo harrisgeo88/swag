@@ -1,0 +1,28 @@
+{
+  "name": "swag",
+  "version": "1.0.0",
+  "description": "A styleguide for my personal projects",
+  "main": "index.js",
+  "author": "Harris Geo",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "prettier-eslint '**/*.js' --write",
+    "storybook": "start-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/react": "^5.1.8",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
+    "prettier-eslint": "^8.8.2",
+    "rollup": "^1.15.6",
+    "rollup-plugin-node-resolve": "^5.0.3"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

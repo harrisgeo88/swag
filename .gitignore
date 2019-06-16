@@ -36,6 +36,10 @@ build/Release
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Storybook plus rollup initial version
 # TypeScript v1 declaration files
 typings/
 
@@ -59,3 +63,6 @@ typings/
 
 # next.js build output
 .next
+
+# built code
+dist
