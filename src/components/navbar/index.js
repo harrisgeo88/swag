@@ -1,2 +1,2 @@
 export { Navbar } from "./navbar";
-export { Item, Left, NavbarWrapper, Right } from "./navbar.styles";
+export { NavItem, Left, NavWrapper, Right } from "./navbar.styles";

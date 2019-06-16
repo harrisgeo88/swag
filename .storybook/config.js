@@ -6,7 +6,7 @@ addDecorator(withA11y);
 const req = require.context("../src/", true, /story\.(js)$/);
 
 function loadStories() {
-  require("../src/index.story.js");
+  require("../src/info.story.js");
   req.keys().forEach(req);
 }
 

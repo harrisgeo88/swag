@@ -1,11 +1,11 @@
 import React from "react";
-import { NavbarWrapper, Left, Item, Right } from "./";
+import { NavWrapper, Left, NavItem, Right } from "./navbar.styles";
 
-export const Navbar = ({ brand = "", onBrandClick = null, children }) => (
-  <NavbarWrapper>
+export const Navbar = ({ title = "", onTitleClick = null, children }) => (
+  <NavWrapper>
     <Left>
-      <Item onClick={onBrandClick}>{brand}</Item>
+      <NavItem onClick={onTitleClick}>{title}</NavItem>
     </Left>
     <Right>{children}</Right>
-  </NavbarWrapper>
+  </NavWrapper>
 );

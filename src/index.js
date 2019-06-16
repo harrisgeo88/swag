@@ -1,5 +1,3 @@
-export const yo = () => {
-  console.log("yoooo");
-};
+import { Navbar, NavItem } from "./components/navbar";
 
-export default yo;
+export { Navbar, NavItem };

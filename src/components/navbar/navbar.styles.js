@@ -4,7 +4,7 @@ const margin = "10px";
 const vertical = "20px";
 const horizontal = margin;
 
-export const NavbarWrapper = styled.div`
+export const NavWrapper = styled.div`
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -22,7 +22,7 @@ export const Right = styled(Left)`
   justify-content: flex-end;
 `;
 
-export const Item = styled.a`
+export const NavItem = styled.a`
   color: #eee;
   margin: ${horizontal} ${vertical};
   text-decoration: none;
