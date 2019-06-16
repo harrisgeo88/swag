@@ -27,6 +27,7 @@
     "prettier-eslint": "^8.8.2",
     "rollup": "^1.15.6",
     "rollup-plugin-node-resolve": "^5.0.3",
+    "storybook-readme": "^5.0.3",
     "styled-components": "^4.3.1",
     "yarn": "^1.16.0"
   },
