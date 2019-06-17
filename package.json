@@ -1,12 +1,12 @@
 {
-  "name": "swag",
+  "name": "swag-components",
   "version": "1.0.0",
-  "description": "A styleguide for my personal projects",
+  "description": "A component library full of swag",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "author": "Harris Geo",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
