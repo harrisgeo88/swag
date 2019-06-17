@@ -7,7 +7,7 @@ A component library full of swag for Harris' projects.
 ## Install library
 
 ```
-coming soon
+  yarn add swag-components
 ```
 
 ## Run it locally
