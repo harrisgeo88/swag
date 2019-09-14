@@ -10,7 +10,7 @@ const handleClick = action("I just got clicked");
 storiesOf("Navbar", module)
   .add("docs", doc(README))
   .add("Navbar", () => <Navbar title="Harris Geo" onTitleClick={handleClick} />)
-  .add("with children", () => (
+  .add("with nav items", () => (
     <Navbar title="Harris Geo" onTitleClick={handleClick}>
       <NavItem onClick={handleClick}>Home</NavItem>
       <NavItem onClick={handleClick}>About</NavItem>

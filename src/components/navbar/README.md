@@ -13,5 +13,6 @@ A navbar component
 ```js
   title: string;
   onTitleClick: () => void;
+  dark: boolean;
   children: React.ReactNode;
 ```

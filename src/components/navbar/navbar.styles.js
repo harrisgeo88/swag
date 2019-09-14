@@ -10,6 +10,7 @@ export const NavWrapper = styled.div`
   width: 100%;
   display: flex;
   background: #333;
+  border-bottom: ${props => (props.dark ? "1px solid #eee" : 0)};
 `;
 
 export const Left = styled.div`
