@@ -1,6 +1,6 @@
 {
   "name": "swag-components",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A component library full of swag",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
