@@ -9,9 +9,7 @@ export const Navbar = ({
 }) => (
   <NavWrapper dark={dark}>
     <Left>
-      <NavItem onClick={onTitleClick} dark={dark}>
-        {title}
-      </NavItem>
+      <NavItem onClick={onTitleClick}>{title}</NavItem>
     </Left>
     <Right>{children}</Right>
   </NavWrapper>
